@@ -1,0 +1,92 @@
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  color: blueviolet;
+}
+
+.title {
+  display: flex;
+  margin: 0 10px 0 0;
+}
+
+.title_greeting {
+  font-size: 22px;
+  color: rgb(47, 43, 158);
+  margin: 0 0 0 10px;
+}
+
+.title_link {
+  display: flex;
+  font-size: 22px;
+  color: aqua;
+  margin: 0 0 0 10px;
+}
+
+.page_header {
+  margin-top: 20px;
+  color: aqua;
+}
+
+.page_footer {
+  margin-bottom: 20px;
+  color: aquamarine;
+}
+
+.link_active {
+  color: blue;
+  text-decoration: underline;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.input_button_container {
+  display: flex;
+}
+
+.input_container {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+}
+
+.input {
+  height: 19px;
+
+}
+
+.input_error {
+  border: 1px solid red;
+  outline: none;
+}
+
+.button {
+  height: 19px;
+  width: 70px;
+}
+
+.button_eye {
+  height: 19px;
+  width: 19px;
+  background: url(../images/eye.svg) no-repeat;
+  padding: 5px;
+  background-color: white;
+}
+
+.button_eye_active {
+  background-color: rgba(107, 107, 107, 1);
+}
+
+.error {
+  color: red;
+  height: 20px;
+  font-size: 12px;
+}
